@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		770C6AD42D0F03C80070390B /* kommalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AD32D0F03C80070390B /* kommalApp.swift */; };
-		770C6AD62D0F03C80070390B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AD52D0F03C80070390B /* ContentView.swift */; };
+		770C6AD62D0F03C80070390B /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AD52D0F03C80070390B /* Splash.swift */; };
 		770C6AD82D0F03C80070390B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770C6AD72D0F03C80070390B /* Assets.xcassets */; };
 		770C6ADB2D0F03C80070390B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770C6ADA2D0F03C80070390B /* Preview Assets.xcassets */; };
 		770C6AE52D0F03C80070390B /* kommalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AE42D0F03C80070390B /* kommalTests.swift */; };
 		770C6AEF2D0F03C90070390B /* kommalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AEE2D0F03C90070390B /* kommalUITests.swift */; };
 		770C6AF12D0F03C90070390B /* kommalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AF02D0F03C90070390B /* kommalUITestsLaunchTests.swift */; };
+		770C6B032D0F044A0070390B /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B022D0F044A0070390B /* MainScreen.swift */; };
+		770C6B052D0F04E50070390B /* FilterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B042D0F04E50070390B /* FilterScreen.swift */; };
+		770C6B072D0F05060070390B /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B062D0F05060070390B /* Review.swift */; };
+		770C6B092D0F05860070390B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B082D0F05860070390B /* SignUp.swift */; };
+		770C6B0B2D0F05AA0070390B /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B0A2D0F05AA0070390B /* MapScreen.swift */; };
+		770C6B0D2D0F05F70070390B /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B0C2D0F05F70070390B /* OpenAI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		770C6AD02D0F03C80070390B /* kommal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kommal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		770C6AD32D0F03C80070390B /* kommalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kommalApp.swift; sourceTree = "<group>"; };
-		770C6AD52D0F03C80070390B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		770C6AD52D0F03C80070390B /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 		770C6AD72D0F03C80070390B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		770C6ADA2D0F03C80070390B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		770C6AE02D0F03C80070390B /* kommalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kommalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		770C6AEA2D0F03C90070390B /* kommalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kommalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770C6AEE2D0F03C90070390B /* kommalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kommalUITests.swift; sourceTree = "<group>"; };
 		770C6AF02D0F03C90070390B /* kommalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kommalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		770C6B022D0F044A0070390B /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		770C6B042D0F04E50070390B /* FilterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterScreen.swift; sourceTree = "<group>"; };
+		770C6B062D0F05060070390B /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		770C6B082D0F05860070390B /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		770C6B0A2D0F05AA0070390B /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		770C6B0C2D0F05F70070390B /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,10 @@
 		770C6AD22D0F03C80070390B /* kommal */ = {
 			isa = PBXGroup;
 			children = (
+				770C6B0F2D0F06570070390B /* ViewModel */,
+				770C6B0E2D0F061F0070390B /* Model */,
 				770C6AD32D0F03C80070390B /* kommalApp.swift */,
-				770C6AD52D0F03C80070390B /* ContentView.swift */,
+				770C6AFD2D0F03CF0070390B /* View */,
 				770C6AD72D0F03C80070390B /* Assets.xcassets */,
 				770C6AD92D0F03C80070390B /* Preview Content */,
 			);
@@ -125,6 +139,34 @@
 				770C6AF02D0F03C90070390B /* kommalUITestsLaunchTests.swift */,
 			);
 			path = kommalUITests;
+			sourceTree = "<group>";
+		};
+		770C6AFD2D0F03CF0070390B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				770C6AD52D0F03C80070390B /* Splash.swift */,
+				770C6B022D0F044A0070390B /* MainScreen.swift */,
+				770C6B042D0F04E50070390B /* FilterScreen.swift */,
+				770C6B062D0F05060070390B /* Review.swift */,
+				770C6B082D0F05860070390B /* SignUp.swift */,
+				770C6B0A2D0F05AA0070390B /* MapScreen.swift */,
+				770C6B0C2D0F05F70070390B /* OpenAI.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		770C6B0E2D0F061F0070390B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		770C6B0F2D0F06570070390B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770C6AD62D0F03C80070390B /* ContentView.swift in Sources */,
+				770C6B072D0F05060070390B /* Review.swift in Sources */,
+				770C6B092D0F05860070390B /* SignUp.swift in Sources */,
+				770C6AD62D0F03C80070390B /* Splash.swift in Sources */,
+				770C6B0D2D0F05F70070390B /* OpenAI.swift in Sources */,
+				770C6B0B2D0F05AA0070390B /* MapScreen.swift in Sources */,
+				770C6B032D0F044A0070390B /* MainScreen.swift in Sources */,
 				770C6AD42D0F03C80070390B /* kommalApp.swift in Sources */,
+				770C6B052D0F04E50070390B /* FilterScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
