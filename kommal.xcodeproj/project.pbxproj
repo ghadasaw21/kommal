@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770C6AD42D0F03C80070390B /* kommalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AD32D0F03C80070390B /* kommalApp.swift */; };
+		770C6AD62D0F03C80070390B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AD52D0F03C80070390B /* ContentView.swift */; };
+		770C6AD82D0F03C80070390B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770C6AD72D0F03C80070390B /* Assets.xcassets */; };
+		770C6ADB2D0F03C80070390B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770C6ADA2D0F03C80070390B /* Preview Assets.xcassets */; };
+		770C6AE52D0F03C80070390B /* kommalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AE42D0F03C80070390B /* kommalTests.swift */; };
+		770C6AEF2D0F03C90070390B /* kommalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AEE2D0F03C90070390B /* kommalUITests.swift */; };
+		770C6AF12D0F03C90070390B /* kommalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AF02D0F03C90070390B /* kommalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		770C6AE12D0F03C80070390B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770C6AC82D0F03C80070390B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 770C6ACF2D0F03C80070390B;
+			remoteInfo = kommal;
+		};
+		770C6AEB2D0F03C90070390B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770C6AC82D0F03C80070390B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 770C6ACF2D0F03C80070390B;
+			remoteInfo = kommal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		770C6AD02D0F03C80070390B /* kommal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kommal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		770C6AD32D0F03C80070390B /* kommalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kommalApp.swift; sourceTree = "<group>"; };
+		770C6AD52D0F03C80070390B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		770C6AD72D0F03C80070390B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		770C6ADA2D0F03C80070390B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		770C6AE02D0F03C80070390B /* kommalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kommalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		770C6AE42D0F03C80070390B /* kommalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kommalTests.swift; sourceTree = "<group>"; };
+		770C6AEA2D0F03C90070390B /* kommalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kommalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		770C6AEE2D0F03C90070390B /* kommalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kommalUITests.swift; sourceTree = "<group>"; };
+		770C6AF02D0F03C90070390B /* kommalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kommalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		770C6ACD2D0F03C80070390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770C6ADD2D0F03C80070390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770C6AE72D0F03C90070390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		770C6AC72D0F03C80070390B = {
+			isa = PBXGroup;
+			children = (
+				770C6AD22D0F03C80070390B /* kommal */,
+				770C6AE32D0F03C80070390B /* kommalTests */,
+				770C6AED2D0F03C90070390B /* kommalUITests */,
+				770C6AD12D0F03C80070390B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		770C6AD12D0F03C80070390B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				770C6AD02D0F03C80070390B /* kommal.app */,
+				770C6AE02D0F03C80070390B /* kommalTests.xctest */,
+				770C6AEA2D0F03C90070390B /* kommalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		770C6AD22D0F03C80070390B /* kommal */ = {
+			isa = PBXGroup;
+			children = (
+				770C6AD32D0F03C80070390B /* kommalApp.swift */,
+				770C6AD52D0F03C80070390B /* ContentView.swift */,
+				770C6AD72D0F03C80070390B /* Assets.xcassets */,
+				770C6AD92D0F03C80070390B /* Preview Content */,
+			);
+			path = kommal;
+			sourceTree = "<group>";
+		};
+		770C6AD92D0F03C80070390B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				770C6ADA2D0F03C80070390B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		770C6AE32D0F03C80070390B /* kommalTests */ = {
+			isa = PBXGroup;
+			children = (
+				770C6AE42D0F03C80070390B /* kommalTests.swift */,
+			);
+			path = kommalTests;
+			sourceTree = "<group>";
+		};
+		770C6AED2D0F03C90070390B /* kommalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				770C6AEE2D0F03C90070390B /* kommalUITests.swift */,
+				770C6AF02D0F03C90070390B /* kommalUITestsLaunchTests.swift */,
+			);
+			path = kommalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		770C6ACF2D0F03C80070390B /* kommal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770C6AF42D0F03C90070390B /* Build configuration list for PBXNativeTarget "kommal" */;
+			buildPhases = (
+				770C6ACC2D0F03C80070390B /* Sources */,
+				770C6ACD2D0F03C80070390B /* Frameworks */,
+				770C6ACE2D0F03C80070390B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kommal;
+			productName = kommal;
+			productReference = 770C6AD02D0F03C80070390B /* kommal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		770C6ADF2D0F03C80070390B /* kommalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770C6AF72D0F03C90070390B /* Build configuration list for PBXNativeTarget "kommalTests" */;
+			buildPhases = (
+				770C6ADC2D0F03C80070390B /* Sources */,
+				770C6ADD2D0F03C80070390B /* Frameworks */,
+				770C6ADE2D0F03C80070390B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				770C6AE22D0F03C80070390B /* PBXTargetDependency */,
+			);
+			name = kommalTests;
+			productName = kommalTests;
+			productReference = 770C6AE02D0F03C80070390B /* kommalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		770C6AE92D0F03C90070390B /* kommalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770C6AFA2D0F03C90070390B /* Build configuration list for PBXNativeTarget "kommalUITests" */;
+			buildPhases = (
+				770C6AE62D0F03C90070390B /* Sources */,
+				770C6AE72D0F03C90070390B /* Frameworks */,
+				770C6AE82D0F03C90070390B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				770C6AEC2D0F03C90070390B /* PBXTargetDependency */,
+			);
+			name = kommalUITests;
+			productName = kommalUITests;
+			productReference = 770C6AEA2D0F03C90070390B /* kommalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		770C6AC82D0F03C80070390B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					770C6ACF2D0F03C80070390B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					770C6ADF2D0F03C80070390B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 770C6ACF2D0F03C80070390B;
+					};
+					770C6AE92D0F03C90070390B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 770C6ACF2D0F03C80070390B;
+					};
+				};
+			};
+			buildConfigurationList = 770C6ACB2D0F03C80070390B /* Build configuration list for PBXProject "kommal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 770C6AC72D0F03C80070390B;
+			productRefGroup = 770C6AD12D0F03C80070390B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				770C6ACF2D0F03C80070390B /* kommal */,
+				770C6ADF2D0F03C80070390B /* kommalTests */,
+				770C6AE92D0F03C90070390B /* kommalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		770C6ACE2D0F03C80070390B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770C6ADB2D0F03C80070390B /* Preview Assets.xcassets in Resources */,
+				770C6AD82D0F03C80070390B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770C6ADE2D0F03C80070390B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770C6AE82D0F03C90070390B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		770C6ACC2D0F03C80070390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770C6AD62D0F03C80070390B /* ContentView.swift in Sources */,
+				770C6AD42D0F03C80070390B /* kommalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770C6ADC2D0F03C80070390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770C6AE52D0F03C80070390B /* kommalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770C6AE62D0F03C90070390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770C6AEF2D0F03C90070390B /* kommalUITests.swift in Sources */,
+				770C6AF12D0F03C90070390B /* kommalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		770C6AE22D0F03C80070390B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 770C6ACF2D0F03C80070390B /* kommal */;
+			targetProxy = 770C6AE12D0F03C80070390B /* PBXContainerItemProxy */;
+		};
+		770C6AEC2D0F03C90070390B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 770C6ACF2D0F03C80070390B /* kommal */;
+			targetProxy = 770C6AEB2D0F03C90070390B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		770C6AF22D0F03C90070390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		770C6AF32D0F03C90070390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		770C6AF52D0F03C90070390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kommal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadaacademy.kommal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		770C6AF62D0F03C90070390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kommal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadaacademy.kommal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		770C6AF82D0F03C90070390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadaacademy.kommalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kommal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kommal";
+			};
+			name = Debug;
+		};
+		770C6AF92D0F03C90070390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadaacademy.kommalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kommal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kommal";
+			};
+			name = Release;
+		};
+		770C6AFB2D0F03C90070390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadaacademy.kommalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kommal;
+			};
+			name = Debug;
+		};
+		770C6AFC2D0F03C90070390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghadaacademy.kommalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kommal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		770C6ACB2D0F03C80070390B /* Build configuration list for PBXProject "kommal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770C6AF22D0F03C90070390B /* Debug */,
+				770C6AF32D0F03C90070390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770C6AF42D0F03C90070390B /* Build configuration list for PBXNativeTarget "kommal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770C6AF52D0F03C90070390B /* Debug */,
+				770C6AF62D0F03C90070390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770C6AF72D0F03C90070390B /* Build configuration list for PBXNativeTarget "kommalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770C6AF82D0F03C90070390B /* Debug */,
+				770C6AF92D0F03C90070390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770C6AFA2D0F03C90070390B /* Build configuration list for PBXNativeTarget "kommalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770C6AFB2D0F03C90070390B /* Debug */,
+				770C6AFC2D0F03C90070390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 770C6AC82D0F03C80070390B /* Project object */;
+}
