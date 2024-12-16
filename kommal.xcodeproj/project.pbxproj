@@ -20,6 +20,8 @@
 		770C6B0B2D0F05AA0070390B /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B0A2D0F05AA0070390B /* MapScreen.swift */; };
 		770C6B0D2D0F05F70070390B /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B0C2D0F05F70070390B /* OpenAI.swift */; };
 		770C6B112D1046D70070390B /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B102D1046D70070390B /* splash.swift */; };
+		770C6B132D106AD00070390B /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B122D106AD00070390B /* MapModel.swift */; };
+		770C6B152D106AE80070390B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B142D106AE80070390B /* MapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		770C6B0A2D0F05AA0070390B /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		770C6B0C2D0F05F70070390B /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
 		770C6B102D1046D70070390B /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash.swift; sourceTree = "<group>"; };
+		770C6B122D106AD00070390B /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		770C6B142D106AE80070390B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +110,9 @@
 		770C6AD22D0F03C80070390B /* kommal */ = {
 			isa = PBXGroup;
 			children = (
+				770C6AD32D0F03C80070390B /* kommalApp.swift */,
 				770C6B0F2D0F06570070390B /* ViewModel */,
 				770C6B0E2D0F061F0070390B /* Model */,
-				770C6AD32D0F03C80070390B /* kommalApp.swift */,
 				770C6AFD2D0F03CF0070390B /* View */,
 				770C6AD72D0F03C80070390B /* Assets.xcassets */,
 				770C6AD92D0F03C80070390B /* Preview Content */,
@@ -158,6 +162,7 @@
 		770C6B0E2D0F061F0070390B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				770C6B122D106AD00070390B /* MapModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 		770C6B0F2D0F06570070390B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				770C6B142D106AE80070390B /* MapViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -300,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				770C6B072D0F05060070390B /* Review.swift in Sources */,
+				770C6B152D106AE80070390B /* MapViewModel.swift in Sources */,
+				770C6B132D106AD00070390B /* MapModel.swift in Sources */,
 				770C6B092D0F05860070390B /* SignUp.swift in Sources */,
 				770C6B112D1046D70070390B /* splash.swift in Sources */,
 				770C6B0D2D0F05F70070390B /* OpenAI.swift in Sources */,
