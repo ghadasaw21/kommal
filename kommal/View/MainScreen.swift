@@ -161,14 +161,14 @@ struct Card: Identifiable {
     let views: Int
 }
 
-// MARK: - Card View
 struct CardView: View {
     let card: Card
     let isSelected: Bool
 
     var body: some View {
-        VStack(spacing: 8) {
+        VStack(alignment: .leading, spacing: 8) {
             ZStack(alignment: .bottomLeading) {
+                // Card Image
                 Image(card.image)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
@@ -176,36 +176,72 @@ struct CardView: View {
                     .cornerRadius(12)
                     .clipped()
 
+                // Gradient Overlay
                 LinearGradient(
-                    gradient: Gradient(colors: [Color.black.opacity(0.5), Color.clear]),
+                    gradient: Gradient(colors: [Color.black.opacity(10), Color.black]),
                     startPoint: .bottom,
                     endPoint: .top
                 )
                 .cornerRadius(12)
 
+                // Card Title
                 Text(card.title)
                     .font(.headline)
                     .foregroundColor(.white)
                     .padding([.leading, .bottom], 8)
             }
 
+            // Card Details: Rating, Reviews, Views
             HStack(spacing: 7) {
+                // Rating
                 HStack {
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Text(String(format: "%.1f", card.rating)).font(.subheadline)
+                    Image(systemName: "star.fill")
+                        .foregroundColor(.yellow)
+                    Text(String(format: "%.1f", card.rating))
+                        .font(.subheadline)
+                        .foregroundColor(.black)
                 }
+
+                // Reviews
                 HStack {
-                    Image(systemName: "message.fill").foregroundColor(.blue)
-                    Text("\(card.reviews) Reviews").font(.subheadline)
+                    Image(systemName: "message.fill")
+                        .foregroundColor(.blue)
+                    Text("\(card.reviews) Reviews")
+                        .font(.subheadline)
+                        .foregroundColor(.black)
                 }
+
+                // Views
                 HStack {
-                    Image(systemName: "eye.fill").foregroundColor(.gray)
-                    Text("\(card.views) Views").font(.subheadline)
+                    Image(systemName: "eye.fill")
+                        .foregroundColor(.gray)
+                    Text("\(card.views) Views")
+                        .font(.subheadline)
+                        .foregroundColor(.black)
                 }
             }
+            .padding(.horizontal, 8)
+
+            // "Review" Button
+            Button(action: {
+                print("Review button tapped")
+            }) {
+                Text("Review")
+                    .font(.subheadline)
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.yellow)
+                    .cornerRadius(8)
+            }
+            .padding(.horizontal, 8)
+            .padding(.bottom, 8)
         }
-        .background(Color.white)
-        .cornerRadius(12)
+        .background(
+            Color.pink
+                .cornerRadius(12)
+                
+        )
     }
 }
 
