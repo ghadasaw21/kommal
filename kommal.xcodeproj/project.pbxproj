@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		770C6AD42D0F03C80070390B /* kommalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AD32D0F03C80070390B /* kommalApp.swift */; };
-		770C6AD62D0F03C80070390B /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AD52D0F03C80070390B /* Splash.swift */; };
 		770C6AD82D0F03C80070390B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770C6AD72D0F03C80070390B /* Assets.xcassets */; };
 		770C6ADB2D0F03C80070390B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770C6ADA2D0F03C80070390B /* Preview Assets.xcassets */; };
 		770C6AE52D0F03C80070390B /* kommalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6AE42D0F03C80070390B /* kommalTests.swift */; };
@@ -20,6 +19,7 @@
 		770C6B092D0F05860070390B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B082D0F05860070390B /* SignUp.swift */; };
 		770C6B0B2D0F05AA0070390B /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B0A2D0F05AA0070390B /* MapScreen.swift */; };
 		770C6B0D2D0F05F70070390B /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B0C2D0F05F70070390B /* OpenAI.swift */; };
+		770C6B112D1046D70070390B /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B102D1046D70070390B /* splash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 /* Begin PBXFileReference section */
 		770C6AD02D0F03C80070390B /* kommal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kommal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		770C6AD32D0F03C80070390B /* kommalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kommalApp.swift; sourceTree = "<group>"; };
-		770C6AD52D0F03C80070390B /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 		770C6AD72D0F03C80070390B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		770C6ADA2D0F03C80070390B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		770C6AE02D0F03C80070390B /* kommalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kommalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +55,7 @@
 		770C6B082D0F05860070390B /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		770C6B0A2D0F05AA0070390B /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		770C6B0C2D0F05F70070390B /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
+		770C6B102D1046D70070390B /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,11 +144,11 @@
 		770C6AFD2D0F03CF0070390B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				770C6AD52D0F03C80070390B /* Splash.swift */,
 				770C6B022D0F044A0070390B /* MainScreen.swift */,
 				770C6B042D0F04E50070390B /* FilterScreen.swift */,
 				770C6B062D0F05060070390B /* Review.swift */,
 				770C6B082D0F05860070390B /* SignUp.swift */,
+				770C6B102D1046D70070390B /* splash.swift */,
 				770C6B0A2D0F05AA0070390B /* MapScreen.swift */,
 				770C6B0C2D0F05F70070390B /* OpenAI.swift */,
 			);
@@ -301,7 +301,7 @@
 			files = (
 				770C6B072D0F05060070390B /* Review.swift in Sources */,
 				770C6B092D0F05860070390B /* SignUp.swift in Sources */,
-				770C6AD62D0F03C80070390B /* Splash.swift in Sources */,
+				770C6B112D1046D70070390B /* splash.swift in Sources */,
 				770C6B0D2D0F05F70070390B /* OpenAI.swift in Sources */,
 				770C6B0B2D0F05AA0070390B /* MapScreen.swift in Sources */,
 				770C6B032D0F044A0070390B /* MainScreen.swift in Sources */,
