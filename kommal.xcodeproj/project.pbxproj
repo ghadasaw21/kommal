@@ -22,6 +22,7 @@
 		770C6B112D1046D70070390B /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B102D1046D70070390B /* splash.swift */; };
 		770C6B132D106AD00070390B /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B122D106AD00070390B /* MapModel.swift */; };
 		770C6B152D106AE80070390B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C6B142D106AE80070390B /* MapViewModel.swift */; };
+		B7465F0F2D12ED4400016827 /* template.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7465F0E2D12ED4400016827 /* template.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		770C6B102D1046D70070390B /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash.swift; sourceTree = "<group>"; };
 		770C6B122D106AD00070390B /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 		770C6B142D106AE80070390B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		B7465F0E2D12ED4400016827 /* template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = template.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				770C6B062D0F05060070390B /* Review.swift */,
 				770C6B082D0F05860070390B /* SignUp.swift */,
 				770C6B102D1046D70070390B /* splash.swift */,
+				B7465F0E2D12ED4400016827 /* template.swift */,
 				770C6B0A2D0F05AA0070390B /* MapScreen.swift */,
 				770C6B0C2D0F05F70070390B /* OpenAI.swift */,
 			);
@@ -314,6 +317,7 @@
 				770C6B0B2D0F05AA0070390B /* MapScreen.swift in Sources */,
 				770C6B032D0F044A0070390B /* MainScreen.swift in Sources */,
 				770C6AD42D0F03C80070390B /* kommalApp.swift in Sources */,
+				B7465F0F2D12ED4400016827 /* template.swift in Sources */,
 				770C6B052D0F04E50070390B /* FilterScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
