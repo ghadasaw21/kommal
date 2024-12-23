@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct Splash: View {
     var body: some View {
         
@@ -18,7 +19,6 @@ struct Splash: View {
                 Circle()
                     .fill(Color.circle.opacity(0.19)) // شفافية 50%
                                 .frame(width: 562, height: 612).offset(y:-225) // حجم الدائرة
-                            
                 
             }
             ZStack{
@@ -28,10 +28,10 @@ struct Splash: View {
                             
             }
             
+            
+            
         }
        
-        
-        
         
         
     }}
